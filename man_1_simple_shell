@@ -1,0 +1,15 @@
+The "Shellby" is a simple UNIX command interpreter that allows users to execute commands from either a file or standard input. It can be invoked interactively or non-interactively. In interactive mode, the shell displays a prompt ("$") and waits for a command. If command line arguments are provided, the shell reads commands from the specified file.
+
+When a command is received, Shellby tokenizes it into words, with the first word as the command and the remaining words as arguments. The shell performs the following actions:
+
+1. If the command is a shell builtin, it invokes the corresponding built-in function.
+2. If the command is not a builtin, the shell searches for an executable file in the directories listed in the PATH environment variable.
+3. If an executable file is found, the shell executes the program with the given arguments.
+
+Shellby returns the exit status of the last executed command. A return status of zero indicates success, while a non-zero status indicates failure. If a command is not found, the return status is 127, and if a command is found but not executable, the return status is 126.
+
+In interactive mode, Shellby ignores the Ctrl+C signal but exits upon receiving the end-of-file signal (Ctrl+D). The shell supports variable replacement, where variables prefixed with "$" are substituted with their corresponding values. It also recognizes special variables like "$?" (return value of the last program) and "$$" (current process ID).
+
+Shellby supports command separators (;), logical operators (&& and ||), and comments (lines starting with "#"). The shell provides built-in commands such as cd (change directory), alias (handle aliases), exit (exit the shell), env (print the current environment), setenv (initialize or modify environment variables), and unsetenv (remove environment variables).
+
+The man page also lists related system calls and functions, as well as references to the sh(1) and dash(1) shell man pages.
