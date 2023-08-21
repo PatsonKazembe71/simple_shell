@@ -1,7 +1,7 @@
 /*
  * File: builtin.c
- * Auth: Mr Reagan
- *       Mr Ackson
+ * Auth: Mr Kazembe Patson
+ *       Mr M'ayuk Obi
  */
 
 #include "shell.h"
