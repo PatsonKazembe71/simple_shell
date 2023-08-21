@@ -1,7 +1,7 @@
 /*
  * File: env_builtins.c
- * Auth: Mr  Ackson
- *       Mr Reagan
+ * Auth: Mr  Kazembe Patson
+ *       Mr M'ayuk Obi
  */
 
 #include "shell.h"
