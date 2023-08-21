@@ -1,7 +1,7 @@
 /*
  * File: split.c
- * Auth: Mr Ackson
- *       Mr Reagan
+ * Auth: Mr Kazembe
+ *       Mr M'ayuk
  */
 
 #include "shell.h"
