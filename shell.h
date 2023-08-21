@@ -1,10 +1,10 @@
-#ifndef _SHELL_H_
+0p0#ifndef _SHELL_H_
 #define _SHELL_H_
 
 /*
  * File: shell.h
-* Auth: Mr Reagan
- *       Mr Ackson
+* Auth: Mr Kazembe
+ *       Mr M'ayuk
  */
 
 #include <fcntl.h>
