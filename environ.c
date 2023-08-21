@@ -1,7 +1,7 @@
 /*
  * File: environ.c
- * Auth: Mr Reagan
- *       Mr Ackson
+ * Auth: Mr Kazembe 
+ *       Mr M'ayuk
  */
 
 #include "shell.h"
