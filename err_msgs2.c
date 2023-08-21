@@ -1,7 +1,7 @@
 /*
  * File: err_msgs2.c
- * Auth: Mr Ackson
- *       Mr Reagan
+ * Auth: Mr Kazembe
+ *       Mr M'ayuk
  */
 
 #include "shell.h"
