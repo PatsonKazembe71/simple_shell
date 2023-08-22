@@ -1,7 +1,7 @@
 /*
  * File: builtin_help_2.c
- * Auth: Mr Kazembe patson
- *       Mr M'ayuk Obi
+ * Auth: Mr Kazembe 
+ *       Mr M'ayuk 
  */
 
 #include "shell.h"
