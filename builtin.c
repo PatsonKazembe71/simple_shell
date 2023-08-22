@@ -1,7 +1,7 @@
 /*
  * File: builtin.c
  * Auth: Mr Kazembe
- */
+ * Auth: Mr M'ayuk
 
 #include "shell.h"
 int (*get_builtin(char *command))(char **args, char **front);
